@@ -8,23 +8,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Folder Structure
 
-Resturant-vegan
-|--node_modules
-|--public
-|--src
-|  |--About
-|  |--assests
-|  |  |--Navbar
-|  |  |--Footer
-|  |--ContactUs
-|  |--Home
-|  |--Product
-|--App.css
-|--App.js
-|--index.css
-|--index.js
-|--package.json
-|--README.md
+.
++-- _node_modules
++-- _public
++-- _src
+|   +-- About
+|   +-- assests
+|   |   +-- Footer
+|   |   +-- Navbar
+|   +-- ContactUs
+|   +-- Home
+|   +-- Product
++-- App.css
++-- App.js
++-- index.css
++-- index.js
 
 The About, ContactUs, Home and Product folders contain respective css and js files.
 The assests folder contains project wide reuseable components.
