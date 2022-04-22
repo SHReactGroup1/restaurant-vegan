@@ -7,7 +7,7 @@ Resturant Website design. UI design from [Resturant Vegan](https://preview.theme
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Folder Structure
-
+```
 .
 +-- _node_modules
 +-- _public
@@ -23,6 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 +-- App.js
 +-- index.css
 +-- index.js
+```
 
 The About, ContactUs, Home and Product folders contain respective css and js files.
 The assests folder contains project wide reuseable components.
