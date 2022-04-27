@@ -15,10 +15,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 |   +-- About
 |   +-- assests
 |   |   +-- Footer
+|   |   +-- img
+|   |   |   +-- products
 |   |   +-- Navbar
 |   +-- ContactUs
 |   +-- Home
-|   +-- Product
+|   +-- Product 
 +-- App.css
 +-- App.js
 +-- index.css
