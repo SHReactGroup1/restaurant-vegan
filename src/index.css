@@ -2,14 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-.green {
+.green-custom {
   color: #256C40;
 }
 
-.light-green {
+.green-custom2 {
+  color: #081C15;
+}
+
+.light-green-custom {
   color: #98C290;
 }
 
 .shape {
   border-radius: 1rem 0 1rem 0;
+}
+
+.bgc-green {
+  border-color: #98C290;
+  background-color: #98C290;
+}
+
+.shrink {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.shrink:hover,
+.shrink:focus {
+  transform: scale(.90);
+}
+
+.shrink:active {
+  transform: scale(.90);
 }
