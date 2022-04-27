@@ -3,7 +3,7 @@ import logoVegan from '../img/Logo-Vegan.png'
 
 function Footer() {
   return (
-    <div className="bgc-green  green-custom2 flex flex-column">
+    <div className="bgc-green  green-custom2 flex flex-column mt4-ns mt3">
         <div className='flex justify-around flex-column flex-row-l pv3 pa3-l mt2-l ph6-l'>
         <div class=" w-third-l pa3 mr2-l flex flex-column mb3 mb0-l">
             <img src={logoVegan} alt='logo vegan' className='mw5 '/>

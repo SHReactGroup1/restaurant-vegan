@@ -1,4 +1,3 @@
-import './App.css';
 import 'tachyons'
 import 'animate.css'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
