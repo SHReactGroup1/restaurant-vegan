@@ -16,7 +16,7 @@ const Meal = ({ meal, children }) => (
 
 function Product() {
   const [meals] = useState([
-    { name: "beetroot vegan", price: 25, amount: "1ea", food: image1 },
+    { name: "beetroot vegan", price: 25, amount: "1ea", food: image1},
     { name: "brown rice", price: 20, amount: "1ea", food: image2 },
     { name: "salad lentils", price: 30, amount: "1ea", food: image3 },
     { name: "burgers salad", price: 20, amount: "1ea", food: image4 },
@@ -35,11 +35,12 @@ function Product() {
 
   return (
     <div className ="Product">
-      <h2>Our delicious vegan meals:</h2>
+    <h2 style={{ color: 'green' }}>
+      Our delicious vegan meals:</h2>
       <hr/ >
     <div className="productsContainer">
         {meals.map((meal, index) => (
-          <Meal key={index} meal={meal}>           
+          <Meal key={index} meal={meal} style={{ color: 'green' }}>           
             <br />
             <img src={meal.food} alt="meal" />
             <br />
@@ -56,14 +57,14 @@ function Product() {
       ))}      
 
     <hr/ >
-    <h3 className='text-center text-contact mt-20 text-5xl md:text-6xl'>
+    <h3 className='text-center text-contact mt-20 text-5xl md:text-6xl color:green' style={{ color: 'green' }}>
       Enjoy Our Food and Keep Healthy!
     </h3>
 
     
     <hr/ >
 
-      <p className='pt-4 text-center w-3/5 mx-auto text-contactText'>
+      <p className='pt-4 text-center w-3/5 mx-auto text-contactText' style={{ color: 'green' }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
        </p>
 
