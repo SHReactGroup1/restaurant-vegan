@@ -13,8 +13,8 @@ function Navbar() {
             <a className="link dim green f4 f3-ns dib" href="/product" title="Product">Product</a>
         </div>
         <div className='pv3 pv0-ns'>
-            <a class="f3 mr4-ns mr5 no-underline bw1 shrink shape ph4-ns pv3-ns ph3 pv2 mb2 dib white bg-dark-green" href="#0">Sign Up</a>
-            <a class="f3 no-underline shape bw1 ba ph4-ns pv3-ns ph3 pv2 mb2 dib dark-green shrink" href="#0">Login</a>
+            <a class="f3 mr4-ns mr5 no-underline bw1 shrink shape ph4-ns pv3-ns ph3 pv2 mb2 dib white bg-dark-green" href="/signup">Sign Up</a>
+            <a class="f3 no-underline shape bw1 ba ph4-ns pv3-ns ph3 pv2 mb2 dib dark-green shrink" href="/login">Login</a>
         </div>
     </nav>
   )
