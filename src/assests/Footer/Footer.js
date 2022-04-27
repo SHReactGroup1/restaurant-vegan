@@ -8,8 +8,8 @@ function Footer() {
         <div class=" w-third-l pa3 mr2-l flex flex-column mb3 mb0-l">
             <img src={logoVegan} alt='logo vegan' className='mw5 '/>
             <p className='f2 mv3 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
-            <p className='mt4-l mt3'>
-            <i className="fa-solid fa-location-dot text-5xl text-contact"></i>
+            <p className='mt3-l mt3 flex items-center'>
+            <i className="fa-solid fa-location-dot text-5xl text-contact mr3"></i>
             <span className='f3-l f4'>London Eye, London, United Kingdom</span>
             </p>
             
@@ -23,8 +23,8 @@ function Footer() {
                     About Us<br/>
                     Services<br/>
                 </p>
-                <p className='mt4-l mt3'>
-                <i class="fa-solid fa-phone text-5xl text-contact"></i>
+                <p className='mt5-l mt3 flex items-center'>
+                <i class="fa-solid fa-phone text-4xl text-contact mr3"></i>
                 <span className='f3-l f4'>088-777-666-85</span>
                 </p>
             </div>
@@ -36,8 +36,8 @@ function Footer() {
                     Booking<br/>
                     Pages<br/>
                 </p>
-                <p className='mt4-l mt3'>
-                <i class="fa-solid fa-envelope-open text-5xl text-contact"></i>
+                <p className='mt5-l mt3 flex items-center'>
+                <i class="fa-solid fa-envelope-open-text text-4xl text-contact mr3"></i>
                 <span className='f3-l f4'>Contact@Vegan.com</span>
                 </p>
             </div>

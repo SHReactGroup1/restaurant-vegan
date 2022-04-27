@@ -8,7 +8,7 @@ import Product from './Product/Product';
 import Contact from './ContactUs/Contact';
 import Navbar from './assests/Navbar/Navbar';
 import Footer from './assests/Footer/Footer';
-//import 404 from './Home/404'
+import ErrorPage from './Home/ErrorPage';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
               <Route path='/about' element={< About/>}></Route>
               <Route path='/product' element={< Product/>}></Route>
               <Route path='/contact' element={< Contact/>}></Route>
-              {/* <Route path="*" element={<Home/>}></Route> */}
+              <Route path="*" element={<ErrorPage/>}></Route>
           </Routes>
       </Router>
       <Footer />
