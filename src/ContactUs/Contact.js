@@ -73,16 +73,16 @@ function Contact() {
       </div>
 
       <form className='w-full mt-32'>
-        <div class="mb-6">
+        <div className="mb-6">
           <input type="email" id="email" className="bg-transparent border border-lighterGreen text-contact text-md block w-full p-2.5 outline-0 placeholder-placeholderText" placeholder="Your Email" required />
         </div>
-        <div class="mb-6">
+        <div className="mb-6">
           <input type="text" id="name" className="bg-transparent border border-lighterGreen text-contact text-md block w-full p-2.5 outline-0 placeholder-placeholderText" placeholder='Name' required />
         </div>
-        <div class="mb-6">
+        <div className="mb-6">
           <textarea rows="7" className="bg-transparent border border-lighterGreen text-contact text-md block w-full p-2.5 outline-0 placeholder-placeholderText" placeholder='Message' required ></textarea>
         </div>
-        <button type="button" class="mb-2 md:w-full md:inline-block px-6 py-2.5 bg-contact text-white font-medium text-xs leading-normal uppercase rounded-tl-md rounded-br-md shadow-md hover:bg-lighterGreen hover:shadow-lg focus:shadow-lg focus:outline-none active:shadow-lg transition duration-150 ease-in-out">Submit</button>
+        <button type="button" className="mb-2 md:w-full md:inline-block px-6 py-2.5 bg-contact text-white font-medium text-xs leading-normal uppercase rounded-tl-md rounded-br-md shadow-md hover:bg-lighterGreen hover:shadow-lg focus:shadow-lg focus:outline-none active:shadow-lg transition duration-150 ease-in-out">Submit</button>
       </form>
 
     </div>
