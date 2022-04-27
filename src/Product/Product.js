@@ -40,6 +40,7 @@ function Product() {
     <div className="productsContainer">
         {meals.map((meal, index) => (
           <Meal key={index} meal={meal}>           
+            <br />
             <img src={meal.food} alt="meal" />
             <br />
             <button onClick={() => addToCart(index)}>Add to cart</button>
